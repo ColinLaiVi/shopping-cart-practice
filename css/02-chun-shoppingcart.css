@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+* {
+  font-family: 'Share Tech Mono', '微軟正黑體';
+}
+
+.navbar {
+  background-color: rgba(160, 241, 255, 0.349);
+}
+
+.navbar .navbar-brand img {
+  width: 45px;
+  height: 50px;
+}
+
+.navbar .navbar-brand span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: black;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #528af1;
+}
+
+#shopping-cart {
+  background-image: url(../img/technology.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 1200px) {
+  #shopping-cart .container {
+    max-width: 1024px;
+  }
+}
+
+#shopping-cart .row .shopping-process {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#shopping-cart .row .shopping-process .step-1, #shopping-cart .row .shopping-process .step-2, #shopping-cart .row .shopping-process .step-3, #shopping-cart .row .shopping-process .step-4 {
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+#shopping-cart .row .shopping-process .progress-rate {
+  margin-top: 20px;
+  width: 180px;
+  height: 5px;
+  background-color: #E5E7EB;
+}
+
+#shopping-cart .row .shopping-process .progress-rate .progress-rate-sm {
+  width: 25%;
+  height: 5px;
+}
+
+#shopping-cart .row .commodity .commodity-img {
+  width: 60px;
+  height: 60px;
+}
+
+#shopping-cart .row .commodity .commodity-name span {
+  display: block;
+}
+
+#shopping-cart .row .commodity-price .commodity-quantity {
+  width: 32px;
+  height: 24px;
+}
+
+#shopping-cart .row .order-settlement div {
+  width: 230px;
+}
+
+footer {
+  background-color: rgba(160, 241, 255, 0.349);
+}
+
+footer .row .brand img {
+  width: 45px;
+  height: 50px;
+}
+
+footer .row .brand span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+footer .row ul {
+  font-size: 18px;
+  text-align: right;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .row ul li a {
+  font-size: 14px;
+  color: black;
+}
+
+footer .row ul li a:hover {
+  color: #528af1;
+}
+/*# sourceMappingURL=02-chun-shoppingcart.css.map */

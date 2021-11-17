@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    font-family: 'Share Tech Mono', '微軟正黑體';
+}
+
+// header
+.navbar {
+    background-color: rgba(160, 241, 255, 0.349);
+
+    .navbar-brand {
+        img {
+            width: 45px;
+            height: 50px;
+        }
+
+        span {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+
+    .collapse {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: black;
+                }
+
+                .nav-link:hover {
+                    color: rgb(82, 138, 241);
+                }
+            }
+        }
+    }
+}
+
+// section
+#shopping-cart {
+    background-image: url(../img/technology.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .container {
+        @media (min-width: 1200px) {
+            max-width: 1024px;
+        }
+    }
+
+    .row {
+        .shopping-process {
+            justify-content: space-evenly;
+
+            .step-1,.step-2,.step-3,.step-4 {
+                margin-bottom: 10px;
+                width: 40px;
+                height: 40px;
+            }
+
+            .progress-rate {
+                margin-top: 20px;
+                width: 180px;
+                height: 5px;
+                background-color: #E5E7EB;
+
+                .progress-rate-sm {
+                    width: 25%;
+                    height: 5px;
+                }
+            }
+        }
+
+        .commodity {
+            .commodity-img {
+                width: 60px;
+                height: 60px;
+            }
+
+            .commodity-name {
+                span {
+                    display: block;
+                }
+            }
+        }
+
+        .commodity-price {
+            .commodity-quantity {
+                width: 32px;
+                height: 24px;
+            }
+        }
+
+        .order-settlement {
+            div {
+                width: 230px;
+            }
+        }
+    }
+}
+
+// footer
+footer {
+    background-color: rgba(160, 241, 255, 0.349);
+
+    .row {
+        .brand {
+            img {
+                width: 45px;
+                height: 50px;
+            }
+
+            span {
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+
+        ul {
+            font-size: 18px;
+            text-align: right;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                a {
+                    font-size: 14px;
+                    color: black;
+                }
+
+                a:hover {
+                    color: rgb(82, 138, 241);
+                }
+            }
+        }
+    }
+}
